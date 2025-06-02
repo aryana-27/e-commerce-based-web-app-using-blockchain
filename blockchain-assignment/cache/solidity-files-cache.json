@@ -1,0 +1,44 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/AryanaGhugharawala1/Desktop/bc2/contracts/contract.sol": {
+      "lastModificationDate": 1743655777177,
+      "contentHash": "5d275e924099dbbe18fdab098f9f9995",
+      "sourceName": "contracts/contract.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "OrderManager",
+        "PaymentModule",
+        "Storage",
+        "UserModule"
+      ]
+    }
+  }
+}
